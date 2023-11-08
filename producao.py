@@ -16,7 +16,7 @@ def dados(csv, aparelho,i,serie):
 def producao():
     while True:
         sleep(4)
-        sheets = pd.read_csv('https://docs.google.com/spreadsheets/d/14I3lOStF5udUsfIREUpuH8bR_9JwDJK7kktEznhWc-E/export?format=csv')
+        sheets = pd.read_csv('')
         onu = pd.read_csv('ONU.csv')
         roteador = pd.read_csv('ROTEADOR.csv')
         contagem = pd.read_csv('Contagem.csv')
